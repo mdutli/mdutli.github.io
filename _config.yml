@@ -1,0 +1,54 @@
+title: mdutli notes
+description: >-
+  Personal tech blog documenting projects, lessons, and quick references.
+url: https://mdutli.github.io
+baseurl: ""
+
+# Theme + layout tweaks
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Content settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+permalink: /:categories/:year/:month/:day/:title/
+
+collections:
+  posts:
+    output: true
+    permalink: /notes/:year/:month/:day/:title/
+
+# Defaults keep front matter lightweight
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: Marcel Dutli
+      categories: [notes]
+      tags: []
+
+# Build configuration
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - AGENTS.md
+  - node_modules
+  - vendor
+  - tmp
+
+# Optional: show excerpts on home layout when using minima
+show_excerpts: true
+
+# Social / SEO (fill in later)
+author:
+  name: Marcel Dutli
+  url: https://github.com/mdutli
