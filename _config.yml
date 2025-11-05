@@ -31,7 +31,7 @@ defaults:
       type: "posts"
     values:
       layout: post
-      author: Marcel Dutli
+      author: Manuel Dutli
       categories: [notes]
       tags: []
 
@@ -50,5 +50,5 @@ show_excerpts: true
 
 # Social / SEO (fill in later)
 author:
-  name: Marcel Dutli
+  name: Manuel Dutli
   url: https://github.com/mdutli
