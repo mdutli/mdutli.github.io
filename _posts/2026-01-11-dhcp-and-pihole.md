@@ -8,8 +8,6 @@ tags:
   - homelab
 ---
 
-# Installing a second Router in my Network
-
 ## Goals
 
 - Route my network traffic through Pi-hole to block ad domains.
@@ -83,7 +81,7 @@ Now every device connected to goat-router routes DNS through Pi-hole and blocks 
 
 ## Example Request Flow
 
-![Example request flow]({{ "/assets/26-01-11-dhcp-and-pihole/request-flow.svg" | relative_url }})
+<img src="{{ "/assets/26-01-11-dhcp-and-pihole/request-flow.svg" | relative_url }}" alt="Example request flow" width="1500">
 
 ## Takeaways
 
