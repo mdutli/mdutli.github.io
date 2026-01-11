@@ -20,7 +20,7 @@ tags:
 - My ISP router had limited configuration.
 - I wanted ad blocking at the network level.
 - The ISP router UI was painfully slow.
-- 
+
 ## Before and After
 
 Before:
