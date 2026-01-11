@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="350" viewBox="0 0 980 350">
+  <defs>
+    <style>
+      .box {
+        fill: #f5f5f5;
+        stroke: #1f1f1f;
+        stroke-width: 2;
+        rx: 12;
+        ry: 12;
+      }
+      .label {
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 16px;
+        fill: #1f1f1f;
+      }
+      .arrow {
+        stroke: #1f1f1f;
+        stroke-width: 2;
+        marker-end: url(#arrowhead);
+      }
+      .note {
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 14px;
+        fill: #1f1f1f;
+      }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1f1f1f" />
+    </marker>
+  </defs>
+
+  <rect class="box" x="40" y="175" width="200" height="100" />
+  <text class="label" x="140" y="210" text-anchor="middle">Internet</text>
+
+  <rect class="box" x="280" y="175" width="170" height="60" />
+  <text class="label" x="365" y="210" text-anchor="middle">ISP Router</text>
+
+  <rect class="box" x="480" y="175" width="170" height="60" />
+  <text class="label" x="565" y="210" text-anchor="middle">Goat-Router</text>
+
+  <rect class="box" x="480" y="60" width="170" height="60" />
+  <text class="label" x="565" y="95" text-anchor="middle">Pi-hole</text>
+
+  <rect class="box" x="770" y="175" width="140" height="100" />
+  <text class="label" x="840" y="210" text-anchor="middle">Laptop</text>
+
+  <line class="arrow" x1="770" y1="205" x2="650" y2="205" />
+  <text class="note" x="710" y="225" text-anchor="middle">1) Open site</text>
+
+  <line class="arrow" x1="565" y1="120" x2="565" y2="175" />
+  <text class="note" x="600" y="150" text-anchor="start">Load needed Domains (with Ads)</text>
+
+  <line class="arrow" x1="585" y1="175" x2="585" y2="120" />
+  <text class="note" x="390" y="150" text-anchor="start">Returns Ad-Free Domains</text>
+
+  <line class="arrow" x1="480" y1="205" x2="450" y2="205" />
+  <text class="note" x="465" y="250" text-anchor="middle">2) Route Web Request</text>
+
+  <line class="arrow" x1="280" y1="205" x2="240" y2="205" />
+  <text class="note" x="295" y="250" text-anchor="middle">3) Fetch content</text>
+
+  <line class="arrow" x1="240" y1="270" x2="770" y2="270" />
+  <text class="note" x="505" y="295" text-anchor="middle">4) Response back to client</text>
+</svg>

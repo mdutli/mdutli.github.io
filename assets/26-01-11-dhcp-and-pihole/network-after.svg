@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360">
+  <defs>
+    <style>
+      .box {
+        fill: #f5f5f5;
+        stroke: #1f1f1f;
+        stroke-width: 2;
+        rx: 12;
+        ry: 12;
+      }
+      .label {
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 18px;
+        fill: #1f1f1f;
+      }
+      .arrow {
+        stroke: #1f1f1f;
+        stroke-width: 2;
+        marker-end: url(#arrowhead);
+      }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1f1f1f" />
+    </marker>
+  </defs>
+
+  <rect class="box" x="40" y="115" width="160" height="70" />
+  <text class="label" x="120" y="158" text-anchor="middle">Internet</text>
+
+  <rect class="box" x="260" y="115" width="170" height="70" />
+  <text class="label" x="345" y="158" text-anchor="middle">ISP-Router</text>
+
+  <rect class="box" x="470" y="115" width="180" height="70" />
+  <text class="label" x="560" y="158" text-anchor="middle">Goat-Router</text>
+
+  <rect class="box" x="700" y="35" width="160" height="60" />
+  <text class="label" x="780" y="71" text-anchor="middle">Pi-hole</text>
+
+  <rect class="box" x="700" y="120" width="160" height="60" />
+  <text class="label" x="780" y="156" text-anchor="middle">Laptop</text>
+
+  <rect class="box" x="700" y="205" width="160" height="60" />
+  <text class="label" x="780" y="241" text-anchor="middle">Phone</text>
+
+  <rect class="box" x="700" y="290" width="160" height="60" />
+  <text class="label" x="780" y="326" text-anchor="middle">TV</text>
+
+  <line class="arrow" x1="200" y1="150" x2="260" y2="150" />
+  <line class="arrow" x1="430" y1="150" x2="470" y2="150" />
+  <line class="arrow" x1="650" y1="150" x2="700" y2="65" />
+  <line class="arrow" x1="650" y1="150" x2="700" y2="150" />
+  <line class="arrow" x1="650" y1="150" x2="700" y2="235" />
+  <line class="arrow" x1="650" y1="150" x2="700" y2="320" />
+</svg>
