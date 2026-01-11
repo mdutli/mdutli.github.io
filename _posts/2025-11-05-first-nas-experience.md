@@ -7,8 +7,6 @@ tags:
   - self hosting
 ---
 
-# Lessons from My QNAP NAS Journey
-
 Over the past weeks, I’ve spent a lot of time setting up, troubleshooting, and securing my QNAP NAS devices. Primarily a **TS-251** and an older **HS-210**. What started as a simple storage rebuild turned into a deep dive into QNAP’s RAID management, Docker containers, and secure remote access.
 
 ## Handling Existing Data
