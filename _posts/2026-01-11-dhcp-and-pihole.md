@@ -81,10 +81,13 @@ Now every device connected to goat-router routes DNS through Pi-hole and blocks 
 
 ## Example Request Flow
 
-<img src="{{ "/assets/26-01-11-dhcp-and-pihole/request-flow.svg" | relative_url }}" alt="Example request flow" width="1500">
+![Example request flow]({{ "/assets/26-01-11-dhcp-and-pihole/request-flow.svg" | relative_url }})
 
 ## Takeaways
 
 - Do not disable DHCP on the ISP router if it still needs to lease an IP to an upstream device.
 - Separate subnets keep the ISP router happy while letting the second router own the client network.
 - Pi-hole is easy to drop in once DNS control is on your side.
+- CPU Usage high, might have reason to upgrade Home-Server now
+
+![Pi-hole Dashboard]({{ "/assets/26-01-11-dhcp-and-pihole/pihole.png" | relative_url }})
