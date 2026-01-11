@@ -25,11 +25,11 @@ tags:
 
 Before:
 
-![Before diagram]({{ "/assets/dhcp-and-pihole/network-before.svg" | relative_url }})
+![Before diagram]({{ "/assets/26-01-11-dhcp-and-pihole/network-before.svg" | relative_url }})
 
 After:
 
-![After diagram]({{ "/assets/dhcp-and-pihole/network-after.svg" | relative_url }})
+![After diagram]({{ "/assets/26-01-11-dhcp-and-pihole/network-after.svg" | relative_url }})
 
 ## Constraints I Hit
 
@@ -48,7 +48,7 @@ After:
 It turns out the ISP router still needed DHCP to give goat-router an IP. With
 DHCP disabled, everything went dark.
 
-![This is fine GIF]({{ "/assets/dhcp-and-pihole/this_is_fine.gif" | relative_url }})
+![This is fine GIF]({{ "/assets/26-01-11-dhcp-and-pihole/this_is_fine.gif" | relative_url }})
 
 ## Recovery Steps
 
@@ -83,7 +83,7 @@ Now every device connected to goat-router routes DNS through Pi-hole and blocks 
 
 ## Example Request Flow
 
-![Example request flow]({{ "/assets/dhcp-and-pihole/request-flow.svg" | relative_url }})
+![Example request flow]({{ "/assets/26-01-11-dhcp-and-pihole/request-flow.svg" | relative_url }})
 
 ## Takeaways
 
